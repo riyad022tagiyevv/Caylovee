@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sifariş Göndər — Riyad Tağıyev</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding:20px; }
+        input, button { font-size:16px; padding:5px; margin:5px 0; }
+        button { cursor:pointer; }
+    </style>
+</head>
+<body onload="listenAccepted()">
+
+<h2>Sifariş Göndər — Riyad Tağıyev</h2>
+
+Masa nömrəsi:<br>
+<input type="text" id="masa"><br>
+
+Sifariş:<br>
+<input type="text" id="sifaris"><br>
+
+Qeyd:<br>
+<input type="text" id="qeyd"><br>
+
+<button onclick="sendOrder()">Göndər</button>
+
+<audio id="sound" src="ding.mp3"></audio>
+<audio id="acceptedSound" src="ding.mp3"></audio>
+
+<br><br>
+<a href="kitchen.html">Mətbəx — Fətəliyev Pərviz</a> |
+<a href="admin.html">Müdir — Cəmşid Quliyev</a>
+
+<script src="script.js"></script>
+</body>
+</html>
